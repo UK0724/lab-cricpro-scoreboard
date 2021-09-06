@@ -2,15 +2,73 @@
 
 
 /* change the font family and spacing as per your project font */
+body
+{
+	background-image: url(/assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-size: 800px 800px;
+	background-position: right center;
+}
+#div1
+{
+	text-align: end;
+	padding: 0 30px;	
+}
+#title h1
+{
+	font-size: xx-large;
+	padding: 0 30px;
+	margin: 0;
+}
+#title p
+{
+	padding: 0 30px;
+	margin: 0;
+}
+
+table
+{
+	margin: 20px 30px;
+	width:75%; 
+    border-spacing:10px; 
+	background-color: white; 
+}
+td,th,table{
+	border-bottom:1px solid gray;
+	border-collapse:collapse;
+	padding:20px;
+}
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
+	padding: 0 30px;
+	margin: 0;
 	font-family: Nunito Sans;
     font-style: normal;
     
+}
+
+#cl
+{
+	background: tomato;
+	color: white;
+}
+
+#li
+{
+	list-style-type: none;
+	text-decoration: none;
+	color: skyblue;
+}
+
+#li:hover
+{
+   background: blueviolet;
+   border: black;
+}
+
+table{
+	border-bottom: None;
 }

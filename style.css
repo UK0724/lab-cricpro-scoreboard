@@ -1,73 +1,92 @@
 /* Type your code here */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Nunito Sans', sans-serif;
-}
-body{
-	background: url(./assets/background-image1.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: right;
-	background-attachment: fixed;
-	font-size:18px;
-}
 
-body>img{
-	margin-left: 80%;
-	padding: 20px 70px;
-}
-#container{
-margin: 0px 150px 0;
-}
-h1{
-	text-shadow:5px 0px 5px rgb(129, 126, 126);
-	font-size:60px;
-}
-h3{
-	color:grey;
-	font-size:30px;
-	margin-bottom: 30px;
-}
-table{
-	text-align: left;
-	border-collapse: collapse;
-	width: 74%;
-	background-color: white;
-	
 
-}
-.h2{
-	text-align: right;
-	padding: 0.5px 5px;
-}
-
-.status{
-	padding-left: 100px;
-	color: rgb(150, 150, 150);
-
-}
-th,td{
-	padding: 10px;
-}
-.blue-font a{
-	color: #2f80ed;
-	text-decoration: none;
-}
-tr{
-	border-bottom: 1px solid  rgb(190, 183, 183);;
-}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 50px;
-	margin-left: 160px;
+	top: 750px;
+	margin-left: 0px;
 	font-size: 18px;
-	font-family: Nunito Sans;
+	font-family:verdana;
     font-style: normal;
+    
 }
+body{
+	background-image: url("./assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+  background-position: right bottom; 
+	font-family:sans-serif;
+	padding-left: 70px;	
+
+}
+
+
+/* change the font family and spacing as per your project font */
+ #logo{
+	display: flex;
+	justify-content: flex-end;
+}
+h1
+{
+	font-size: 35px;
+	padding: 0px;
+	margin-bottom: 0;
+	text-shadow: 0px 3px lightgrey;
+	
+}
+h2{
+	color:grey;
+	font-size: 20px;
+	margin-top: 0;
+
+}
+table{
+	border: 1px solid lightgrey;
+	font-size: 16px;
+	border-collapse: collapse;
+	width: 73%;
+	height: 380px;
+	background-color: white;	
+	padding-left:50px;
+}
+tr
+{
+	border-bottom: 2px solid lightgrey;	
+	text-align:left;
+
+}
+tr>th{
+
+	padding: 7px;
+}
+tr>td{
+	padding: 7px;
+}
+#first-row{
+	background-color:rgb(233, 66, 5) ;
+	color:white;
+	font-weight: lighter;
+}
+#text{
+	color: grey;
+}
+a{
+	text-decoration: none;
+	color:skyblue;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 0px;
+	top: 20px;
+	margin-top: 0px;
+	font-size: 18px;
+	font-family:verdana;
+    font-style: normal;}
